@@ -1,0 +1,75 @@
+.home {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.home-container {
+  display: flex;
+  flex-direction: column;
+  height: 50vh;
+  width: 50vw;
+}
+
+.greeting {
+  font-family: var(--font-family);
+  font-size: 1.2rem;
+  color: #ccd6f6;
+  font-weight: bold;
+}
+
+.main-part {
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+}
+
+.fname {
+  font-family: var(--font-family);
+  font-size: 4.5rem;
+  color: #ccd6f6;
+}
+
+.occupation {
+  font-family: var(--font-family);
+  font-size: 3.9rem;
+}
+
+.summary {
+  font-family: var(--font-family);
+  font-size: 1.2rem;
+  display: inline-flex;
+  width: 30vw;
+
+  word-wrap: break-word;
+  color: #98a8db;
+}
+.btn-wrapper {
+  width: 20rem;
+  height: 4rem;
+}
+
+.to-linkedin {
+  width: 20rem;
+  height: 4rem;
+  color: rgb(101, 104, 255);
+  font-family: var(--font-family);
+  font-size: 1.2rem;
+  border: double 2px transparent;
+  border-radius: 6px;
+  background-image: linear-gradient(#002347, #011f41),
+    radial-gradient(
+      circle at top left,
+      rgba(145, 101, 255, 1),
+      rgba(0, 97, 255, 1)
+    );
+  background-origin: border-box;
+  background-clip: padding-box, border-box;
+  cursor: pointer;
+  margin: 3rem 0rem;
+}
+
+.btn-wrapper:hover {
+  filter: drop-shadow(0px 0px 20px rgb(34, 70, 105));
+  transition: filter 0.3s ease-in;
+}

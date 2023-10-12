@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=PT+Serif:wght@400;700&display=swap");
+
+:root {
+  margin: 0;
+  padding: 0;
+  font-size: 15px;
+  font-family: "PT Serif", serif;
+  --font-family: "Inter", sans-serif;
+  font-family: var(--font-family);
+  --list-bullet: linear-gradient(
+    45deg,
+    rgba(145, 101, 255, 1),
+    rgba(0, 97, 255, 1)
+  );
+}
+
+.gradient__text {
+  background-image: linear-gradient(
+    45deg,
+    rgba(145, 101, 255, 1),
+    rgba(0, 97, 255, 1)
+  );
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+}
+
+.gradient__bg {
+  height: max-content;
+  /* ff 3.6+ */
+
+  /* ff 3.6+ */
+
+  /* ff 3.6+ */
+  background: -moz-linear-gradient(
+    90deg,
+    rgba(1, 11, 33, 1) 0%,
+    rgba(1, 38, 76, 1) 40%,
+    rgba(1, 11, 33, 1) 100%
+  );
+
+  /* safari 5.1+,chrome 10+ */
+  background: -webkit-linear-gradient(
+    90deg,
+    rgba(1, 11, 33, 1) 0%,
+    rgba(1, 38, 76, 1) 32%,
+    rgba(1, 11, 33, 1) 100%
+  );
+
+  /* opera 11.10+ */
+  background: -o-linear-gradient(
+    90deg,
+    rgba(1, 11, 33, 1) 0%,
+    rgba(1, 38, 76, 1) 32%,
+    rgba(1, 11, 33, 1) 100%
+  );
+
+  /* ie 6-9 */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#010B21', endColorstr='#010B21', GradientType=0 );
+
+  /* ie 10+ */
+  background: -ms-linear-gradient(
+    90deg,
+    rgba(1, 11, 33, 1) 0%,
+    rgba(1, 38, 76, 1) 32%,
+    rgba(1, 11, 33, 1) 100%
+  );
+
+  /* global 94%+ browsers support */
+  background: linear-gradient(
+    90deg,
+    rgba(1, 11, 33, 1) 0%,
+    rgba(1, 38, 76, 1) 32%,
+    rgba(1, 11, 33, 1) 100%
+  );
+}

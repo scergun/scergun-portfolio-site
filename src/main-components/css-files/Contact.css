@@ -1,0 +1,68 @@
+.contact-container {
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+}
+
+.wrapper-c {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 40vw;
+  margin-top: 10vh;
+}
+
+.content-container {
+  display: flex;
+  flex-direction: column;
+  width: 50vw;
+}
+.content-container span {
+  margin-top: 5rem;
+  font-size: 1.2rem;
+  color: rgb(101, 104, 255);
+}
+.content-container h1 {
+  font-size: 4rem;
+  color: #ccd6f6;
+}
+.header-c {
+  display: flex;
+  margin: 0rem 0rem 2rem 0rem;
+}
+
+.header-c .gradient__text {
+  margin-left: 0.5rem;
+}
+
+.content-container .summary {
+}
+
+.content-container .resume1 {
+  font-size: 1.1rem;
+  margin-top: 6rem;
+  background-image: linear-gradient(#022043, #02254b),
+    radial-gradient(
+      circle at top left,
+      rgba(145, 101, 255, 1),
+      rgba(0, 97, 255, 1)
+    );
+  align-items: center;
+  justify-content: center;
+}
+
+.resume1 a {
+  display: flex;
+  width: 15rem;
+  height: 100%;
+  color: rgb(101, 104, 255);
+  background-color: transparent;
+  text-decoration: none;
+  align-items: center;
+  justify-content: center;
+}
