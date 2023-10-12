@@ -23,7 +23,7 @@ function App() {
             <Route path="/Projects" element={<Projects />} />
             <Route path="/Contact" element={<Contact />} />
           </Routes>
-          <Home className={"section1"} />
+
           <About className={"section2"} />
           <Projects className={"section3"} />
           <Contact className={"section4"} />
