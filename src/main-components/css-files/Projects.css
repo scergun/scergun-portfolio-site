@@ -294,3 +294,122 @@
 .link-dec {
   text-decoration: none;
 }
+
+.responsive {
+  display: none;
+}
+
+@media only screen and (max-width: 600px) {
+  .container {
+    width: 100vw;
+  }
+  .wrapper {
+    height: 90vh;
+    width: 90%;
+  }
+  .wrapper .header {
+    width: 100%;
+  }
+  .wrapper .header hr {
+    width: 4.3rem;
+  }
+  .no-res {
+    display: none;
+  }
+  .responsive {
+    display: flex;
+  }
+
+  .project-container {
+    width: 90vw;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    border-radius: 6px;
+    height: 100%;
+  }
+
+  .project-container .header {
+    width: 70%;
+  }
+
+  .background-img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url(https://i.imgur.com/2A3X2Dy.png);
+    z-index: 2;
+    border-radius: 6px;
+  }
+
+  .background-img::before {
+    position: absolute;
+    border-radius: 10px;
+    opacity: 0.4;
+    margin-top: 0rem;
+    margin-left: 0rem;
+    content: "";
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(
+      45deg,
+      rgba(145, 101, 255, 0.3),
+      rgba(0, 97, 255, 0.6)
+    );
+  }
+
+  .desc-container {
+    width: 94%;
+    height: 100%;
+    z-index: 3;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    background-color: transparent;
+    text-align: start;
+    margin-left: 1rem;
+  }
+
+  .desc-container .desc {
+    width: 100%;
+    background-color: transparent;
+    text-align: start;
+    top: 12rem;
+    padding: 0;
+  }
+  .technologies {
+    margin-top: 17rem;
+    margin-bottom: 0;
+    width: 100%;
+  }
+  .technologies li {
+    text-align: center;
+    margin: 0;
+    margin-right: 0.9rem;
+  }
+
+  .project-2 .background-img {
+    background-image: url(https://i.imgur.com/K76A3iF.png);
+    opacity: 0.4;
+  }
+
+  .project-2 .background-img::before {
+    opacity: 1;
+  }
+  .hidden {
+    visibility: hidden;
+  }
+  .cards-wrapper {
+    margin-top: 6vh;
+  }
+
+  .cards-wrapper h1 {
+    font-size: clamp(16px, 8vw, 60px);
+  }
+  .cards-list {
+    width: 80%;
+  }
+}

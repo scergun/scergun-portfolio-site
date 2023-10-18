@@ -1,0 +1,48 @@
+.respon {
+  display: none;
+}
+
+@media only screen and (max-width: 600px) {
+  .navbar-container {
+    display: flex;
+    position: fixed;
+    height: 100%;
+    width: 70vw;
+    right: 0;
+    background-color: rgb(23, 43, 63);
+    z-index: 102;
+    transition: all 0.5s ease;
+    filter: drop-shadow(0mm 0mm 100px rgb(0, 0, 0));
+  }
+
+  .navbar-list {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .navbar-list-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.1rem;
+  }
+
+  .navbar-list-item span {
+    margin-bottom: 0.6rem;
+  }
+  .iconX {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    color: rgb(101, 104, 255);
+  }
+
+  .hideResNav {
+    transform: translateX(100%);
+    filter: drop-shadow(1px 0 40mm rgba(0, 0, 0, 0));
+  }
+}

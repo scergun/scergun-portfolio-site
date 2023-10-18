@@ -5,7 +5,7 @@ import { HashLink as Link } from "react-router-hash-link";
 export const Projects = () => {
   return (
     <div className="container " id="projects">
-      <div className="wrapper">
+      <div className="wrapper no-res">
         <div className="header">
           <span className="gradient__text">02.</span>
           <h1>The Things I've Made</h1>
@@ -29,7 +29,7 @@ export const Projects = () => {
                 feature-rich mobile-responsive React application built using
                 Vite as the development tool. This project serves as a showcase
                 of modern web development technologies, offering a glimpse into
-                the power and flexibility of React and related libraries. The
+                the power and flexibility of React and related libraries.
               </p>
             </div>
             <ul className="technologies">
@@ -51,7 +51,7 @@ export const Projects = () => {
           </div>
         </div>
       </div>
-      <div className="wrapper wrapper-left">
+      <div className="wrapper wrapper-left no-res">
         <div className="project-container p-c-left">
           <div className="desc-container d-c-left">
             <span className="gradient__text">Featured Project</span>
@@ -89,7 +89,7 @@ export const Projects = () => {
           </Link>
         </div>
       </div>
-      <div className="wrapper">
+      <div className="wrapper no-res">
         <div className="project-container">
           <Link
             to={"https://github.com/scergun/Custom-Disco-Lights"}
@@ -128,6 +128,96 @@ export const Projects = () => {
           </div>
         </div>
       </div>
+      <div className="wrapper responsive">
+        <div className="header">
+          <span className="gradient__text">02.</span>
+          <h1>The Things I've Made</h1>
+          <hr />
+        </div>
+        <div className="project-container">
+          <div className="desc-container">
+            <span className="gradient__text">Featured Project</span>
+            <h1>Many Things React App</h1>
+            <div className="desc">
+              <p>
+                Welcome to the "Many Things React App," a versatile and
+                feature-rich mobile-responsive React application built using
+                Vite as the development tool. This project serves as a showcase
+                of modern web development technologies, offering a glimpse into
+                the power and flexibility of React and related libraries.
+              </p>
+            </div>
+            <ul className="technologies">
+              <li>React</li>
+              <li>JavaScript</li>
+              <li>Context API</li>
+              <li>React Router</li>
+              <li>Custom Hooks</li>
+            </ul>
+          </div>
+          <div className="background-img"></div>
+          <Link
+            to="https://github.com/scergun/many-things-app-react"
+            target="_blank"
+          ></Link>
+        </div>
+      </div>
+      <div className="wrapper responsive project-2">
+        <div className="project-container">
+          <div className="desc-container ">
+            <span className="gradient__text">Featured Project</span>
+            <h1>Fantasy Clicker Game</h1>
+            <div className="desc">
+              <p>
+                This project is a simple click-based game developed for testing
+                purposes. Please note that the game does not have balanced
+                gameplay, and it ends after reaching level 20.This game is a
+                basic clicker-style game where players earn points by clicking
+                on enemies and progress by hiring and upgrading heroes.
+              </p>
+            </div>
+            <ul className="technologies">
+              <li>JavaScript</li>
+              <li>HTML</li>
+              <li>CSS</li>
+            </ul>
+          </div>
+          <div className="background-img"></div>
+          <Link
+            to="https://github.com/scergun/many-things-app-react"
+            target="_blank"
+          ></Link>
+        </div>
+      </div>
+      <div className="wrapper responsive">
+        <div className="project-container">
+          <div className="desc-container">
+            <span className="gradient__text">Featured Project</span>
+            <h1>Custom Disco Lights</h1>
+            <div className="desc">
+              <p>
+                "Custom Disco Lights" is an exciting web application that allows
+                users to create mesmerizing disco lights on their screens using
+                different color palettes. With this project, users can immerse
+                themselves in vibrant and dynamic disco light displays, where
+                they have the freedom to customize the lights' frequency (speed)
+                to their preference.
+              </p>
+            </div>
+            <ul className="technologies">
+              <li>JavaScript</li>
+              <li>CSS</li>
+              <li>HTML</li>
+            </ul>
+          </div>
+          <div className="background-img"></div>
+          <Link
+            to="https://github.com/scergun/many-things-app-react"
+            target="_blank"
+          ></Link>
+        </div>
+      </div>
+
       <div className="cards-wrapper">
         <h1>Other Projects</h1>
         <Link

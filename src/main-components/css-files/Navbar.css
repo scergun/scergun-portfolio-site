@@ -9,6 +9,10 @@
   z-index: 100;
   filter: drop-shadow(1px 1px 60px rgba(1, 1, 2, 0.596));
 }
+
+.responsive-nav {
+  display: none;
+}
 .navbar-container {
   display: flex;
   justify-content: center;
@@ -64,4 +68,25 @@
 
 .hideNav {
   transform: translateY(-100%);
+}
+
+@media only screen and (max-width: 600px) {
+  .no-res {
+    display: none;
+  }
+  .responsive-nav {
+    display: flex;
+  }
+  .navbar-row {
+    height: 5rem !important;
+  }
+  .navbar-logo {
+    font-size: 20px;
+  }
+
+  .navbar-container-res {
+    width: 90vw;
+    display: flex;
+    justify-content: space-between;
+  }
 }

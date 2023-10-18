@@ -119,3 +119,47 @@ hr {
   -webkit-text-fill-color: transparent;
   -moz-text-fill-color: transparent;
 }
+
+@media only screen and (max-width: 600px) {
+  .about-main {
+    width: 100vw;
+    height: 100%;
+    margin-bottom: 50rem;
+  }
+  .about-wrapper {
+    width: 90vw;
+    margin-top: 0;
+  }
+  .header span {
+    font-size: 1.6rem;
+  }
+  .header h1 {
+    font-size: 1.6rem;
+    font-weight: 600;
+  }
+
+  .header hr {
+    width: 49%;
+  }
+  .content {
+    flex-direction: column;
+    align-items: center;
+
+    width: 90%;
+  }
+  .content-paragraphs {
+    width: 90vw;
+    margin-left: 2rem;
+  }
+  .content p {
+    width: 100%;
+    font-size: clamp(10px, 8vw, 16px);
+  }
+
+  .about-wrapper .skill-list li {
+    font-size: clamp(10px, 8vw, 15px) !important;
+  }
+  .about-wrapper .skill-list {
+    justify-content: center;
+  }
+}

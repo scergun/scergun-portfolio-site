@@ -26,3 +26,9 @@
 .vertical a:hover {
   filter: drop-shadow(0px 0px 10px rgb(86, 127, 182));
 }
+
+@media only screen and (max-width: 600px) {
+  .sb2 {
+    display: none;
+  }
+}

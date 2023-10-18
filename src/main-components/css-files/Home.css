@@ -73,3 +73,37 @@
   filter: drop-shadow(0px 0px 20px rgb(34, 70, 105));
   transition: filter 0.3s ease-in;
 }
+
+@media only screen and (max-width: 600px) {
+  .home {
+    width: 100vw;
+  }
+  .home-container {
+    display: flex;
+
+    width: 90%;
+    height: 70%;
+    margin-top: 4rem;
+  }
+  .greeting {
+    font-size: clamp(10px, 8vw, 18px);
+  }
+
+  .fname {
+    font-size: clamp(33px, 8vw, 80px);
+  }
+
+  .occupation {
+    font-size: clamp(33px, 8vw, 80px);
+  }
+  .summary {
+    width: 100%;
+    font-size: clamp(10px, 8vw, 16px);
+  }
+
+  .to-linkedin {
+    width: 17rem;
+    height: 3.5rem;
+    font-size: clamp(10px, 8vw, 16px);
+  }
+}
