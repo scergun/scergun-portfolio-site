@@ -4,6 +4,8 @@
 
 This is my personal portfolio website, built using React. The website showcases my resume, featured projects, social media profiles, and contact email.
 
+![img](https://i.imgur.com/1asBvXQ.png)
+
 ## Technologies Used
 
 - React
