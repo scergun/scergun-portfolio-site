@@ -41,7 +41,9 @@ export const NavbarResponsive = () => {
         <a
           className="navbar-list-item-resume"
           onClick={() => setShowResNav(false)}
-          href="#"
+           target="_blank"
+              rel="noreferrer"
+              href="https://drive.google.com/file/d/1w_5syoFMi5Kl3E9WrEKPwZY2QKytZhSN/view?usp=share_link"
         >
           <button className="resume">Resume</button>
         </a>
