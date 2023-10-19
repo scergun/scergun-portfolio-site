@@ -27,7 +27,7 @@ This is my personal portfolio website, built using React. The website showcases 
 
 ## Live Demo
 
-You can see the live demo of the website [here]([https://your-portfolio-website-url.com](https://scergun.github.io/scergun-portfolio-site/).
+You can see the live demo of the website [here](https://scergun.github.io/scergun-portfolio-site/).
 
 ## License
 
