@@ -64,7 +64,9 @@ export const Navbar = () => {
             <Link className="navbar-list-item" to="#contact">
               <span className="gradient__text ">03.</span> Contact
             </Link>
-            <a className="navbar-list-item-resume" href="#">
+            <a className="navbar-list-item-resume"  target="_blank"
+              rel="noreferrer"
+              href="https://drive.google.com/file/d/1w_5syoFMi5Kl3E9WrEKPwZY2QKytZhSN/view?usp=share_link">
               <button className="resume">Resume</button>
             </a>
           </ul>
